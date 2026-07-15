@@ -2,10 +2,10 @@
 export const websiteConfig = {
   // 网站基本信息
   site: {
-    title: "晚晚服",
-    description: "欢迎来到晚晚服，探索无限可能的方块世界！",
+    title: "EasyPlay",
+    description: "欢迎来到EasyPlay，探索无限可能的方块世界！",
     keywords: "Minecraft,服务器,我的世界,Java版,生存,创造,生电",
-    author: "晚晚服",
+    author: "EasyPlay",
     language: "zh-CN"
   },
 
@@ -24,7 +24,7 @@ export const websiteConfig = {
         pageTitle: {
           // 主标题配置（支持打字机效果）
           mainTitle: {
-            texts: ["欢迎来到 晚晚服", "Welcome to DuskCraft"], // 多语言标题数组
+            texts: ["欢迎来到 EasyPlay", "Welcome to EasyPlay"], // 多语言标题数组
             typewriter: {
               enabled: true, // 是否启用打字机效果
               speed: 100,    // 打字速度（毫秒）
@@ -197,7 +197,7 @@ export const websiteConfig = {
   // 服务器配置
   server: {
     // 页面显示的服务器地址
-    displayAddress: "w-6.cc",
+    displayAddress: "mc.easyplay.dpdns.org",
     // API请求使用的服务器地址（可以不同）
     apiAddress: "ipv4.w-6.cc",
     port: "25565",
@@ -207,7 +207,7 @@ export const websiteConfig = {
 
   // 页脚配置
   footer: {
-    copyright: "© 2022-2026 晚晚服保留所有权利.",
+    copyright: "© 2022-2026 EasyPlay服保留所有权利.",
     customHtml: `
       <!-- 在这里插入自定义HTML代码，比如备案信息 -->
       <div style='display: flex; justify-content: center; align-items: center; width: 100%;'><a target='_blank' href='https://beian.miit.gov.cn/'><img src='/foot/foot-icp.svg' style='display: block;'></a></div>
@@ -359,9 +359,9 @@ export const websiteConfig = {
         title: "管理团队",
         icon: "shield-account",
         items: [
-          { label: "_YUTONG_", value: "腐竹-物理服主！" },
-          { label: "wanwan_jiean", value: "腐竹-技术和主要管理" },
-          { label: "CrazyPastor", value: "腐竹-不务正业" }
+          { label: "Alphainsycs", value: "不务正业？" },
+          { label: "StuckHades1841", value: "主要管理" },
+          { label: "ww", value: "赞助" }
         ]
       }
     },
@@ -402,7 +402,7 @@ export const websiteConfig = {
           icon: "qqchat",
           buttonText: "加入 QQ 群",
           buttonType: "secondary",
-          url: "https://qm.qq.com/q/mVvrLcbLvU"
+          url: "https://qm.qq.com/q/qsOHbAd2YS"
         },
         {
           title: "邮箱",
@@ -410,7 +410,7 @@ export const websiteConfig = {
           icon: "email",
           buttonText: "发送邮件",
           buttonType: "secondary",
-          url: "mailto:me@wanfory.top"
+          url: "mailto:3658056710@qq.com"
         }
       ]
     },
@@ -432,11 +432,12 @@ export const websiteConfig = {
       
       // 手动成员列表（当dataSource为"manual"时,或未获取到数据时生效）
       manualList: [
-        "EpiphanyEX",
-        "Bu_XiAo_Le",
-        "BIG_windows",
-        "XiaoHongya",
-        "lanbaicai01"
+        "Alphainsycs",
+        "Alphainsys2",
+        "StuckHades1841",
+        "StuckHades1845",
+        "xiaofan666hh"
+        "xiaocm21"
       ]
     }
   },
