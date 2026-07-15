@@ -58,27 +58,6 @@ export const websiteConfig = {
         }
       },
       {
-        name: "历程",
-        path: "/history",
-        icon: "mdi-history",
-        enabled: true,
-        // 外链配置：如果external为true，则点击跳转到externalUrl
-        external: false, // 是否启用外链模式
-        externalUrl: "", // 外链地址（仅在external为true时生效）
-        pageTitle: {
-          mainTitle: {
-            texts: ["晚晚服服历程", "DCS History"],
-            typewriter: {
-              enabled: true,
-              speed: 100,
-              delay: 1000,
-              loop: true
-            }
-          },
-          subtitle: "回顾服务器的发展历程，见证每一个重要的里程碑"
-        }
-      },
-      {
         name: "排行榜",
         path: "/leaderboard",
         icon: "mdi-trophy",
@@ -214,105 +193,6 @@ export const websiteConfig = {
     `
   },
 
-  // 排行榜配置
-  leaderboard: {
-    // 本地JSON文件配置
-    localFile: {
-      path: "/assets/leaderboard/count_export.json",
-      cacheTimeout: 300000 // 5分钟缓存
-    },
-    
-    // 计分板显示配置
-    objectives: {
-      // 活跃时间
-      "fzsd.module.scoreboard.display.activation": {
-        enabled: true,             //是否显示
-        displayName: "活跃时间",
-        icon: "clock",
-        unit: "小时",
-        showTotal: true
-      },
-      // 飞行距离
-      "fzsd.module.scoreboard.display.aviating_distance": {
-        enabled: true,
-        displayName: "飞行距离",
-        icon: "airplane",
-        unit: "米",
-        showTotal: true
-      },
-      // 受伤害数
-      "fzsd.module.scoreboard.display.damage_taken": {
-        enabled: true,
-        displayName: "受伤害数",
-        icon: "heartbroken",
-        unit: "点",
-        showTotal: true
-      },
-      // 死亡次数
-      "fzsd.module.scoreboard.display.death_count": {
-        enabled: true,
-        displayName: "死亡次数",
-        icon: "skull",
-        unit: "次",
-        showTotal: true
-      },
-      // 挖掘数
-      "fzsd.module.scoreboard.display.dig_count": {
-        enabled: true,
-        displayName: "方块挖掘",
-        icon: "pickaxe",
-        unit: "个",
-        showTotal: true
-      },
-      // 钓鱼次数
-      "fzsd.module.scoreboard.display.fishing_count": {
-        enabled: true,
-        displayName: "钓鱼次数",
-        icon: "fish",
-        unit: "次",
-        showTotal: true
-      },
-      // 击杀数
-      "fzsd.module.scoreboard.display.kill_count": {
-        enabled: true,
-        displayName: "玩家击杀",
-        icon: "sword",
-        unit: "个",
-        showTotal: true
-      },
-      // 放置数
-      "fzsd.module.scoreboard.display.placement_count": {
-        enabled: true,
-        displayName: "放置数量",
-        icon: "placement",
-        unit: "个",
-        showTotal: true
-      },
-      // 交易次数
-      "fzsd.module.scoreboard.display.trade_count": {
-        enabled: true,
-        displayName: "交易次数",
-        icon: "trade",
-        unit: "次",
-        showTotal: true
-      }
-    },
-    
-    // 显示设置
-    display: {
-      itemsPerPage: 10,
-      showPlayerCount: true,
-      showUpdateTime: true,
-      showTotalScore: true
-    }
-  },
-
-  // 历程配置
-  history: {
-    // 图片文件夹路径
-    imagesFolder: "/assets/history-images"
-  },
-
   // 相册配置
   gallery: {
     // 图片文件夹路径
@@ -329,11 +209,11 @@ export const websiteConfig = {
         title: "服务器信息",
         icon: "information",
         items: [
-          { label: "服务器类别", value: "物理机" },
-          { label: "CPU", value: "i9-13900kf" },
-          { label: "内存", value: "128GB DDR5" },  
+          { label: "服务器类别", value: "rainyun" },
+          { label: "CPU", value: "你猜" },
+          { label: "内存", value: "你猜" },  
           { label: "类型", value: "生存，生电，建筑" },
-          { label: "最大玩家", value: "100人" },
+          { label: "最大玩家", value: "20人" },
           { label: "在线时间", value: "7X24小时" }
         ]
       },
@@ -347,9 +227,6 @@ export const websiteConfig = {
           { label: "IPV4网络", value: "✓" },
           { label: "IPV6网络", value: "✓" },
           { label: "镜像服务器", value: "✓" },
-          { label: "双重备份", value: "✓" },
-          { label: "群服互通", value: "✓" },
-          { label: "联机工具提供", value: "✓" }
         ]
       },
       
