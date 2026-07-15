@@ -192,7 +192,9 @@ export const websiteConfig = {
       <div style='display: flex; justify-content: center; align-items: center; width: 100%;'><a target='_blank' href='https://beian.miit.gov.cn/'><img src='/foot/foot-icp.svg' style='display: block;'></a></div>
     `
   },
-
+   history: {
+    imagesFolder: "/assets/history-images"
+  },
   // 相册配置
   gallery: {
     // 图片文件夹路径
