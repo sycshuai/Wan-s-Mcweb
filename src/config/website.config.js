@@ -178,7 +178,7 @@ export const websiteConfig = {
     // 页面显示的服务器地址
     displayAddress: "mc.easyplay.dpdns.org",
     // API请求使用的服务器地址（可以不同）
-    apiAddress: "ipv4.w-6.cc",
+    apiAddress: "fm.rainplay.cn",
     port: 35226,
     version: "1.21.4",
     apiEndpoint: "https://api.mcstatus.io/v2/status/java",
