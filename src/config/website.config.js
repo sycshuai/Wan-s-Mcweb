@@ -189,7 +189,7 @@ export const websiteConfig = {
     copyright: "© 2022-2026 EasyPlay服保留所有权利.",
     customHtml: `
       <!-- 在这里插入自定义HTML代码，比如备案信息 -->
-      <div style='display: flex; justify-content: center; align-items: center; width: 100%;'><a target='_blank' href='https://www.alphainsycs/'><img src='https://postimg.cc/7bwTGMsz' style='display: block;'></a></div>
+      <div style='display: flex; justify-content: center; align-items: center; width: 100%;'><a target='_blank' href='https://www.alphainsycs.dpdns.org/'><img src='https://postimg.cc/7bwTGMsz' style='display: block;'></a></div>
     `
   },
    history: {
